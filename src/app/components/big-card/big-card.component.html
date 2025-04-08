@@ -2,19 +2,21 @@
     
     <div class="big-card__photo">
         <img 
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZfbRia-RHZbVqF8xyS8XHQzM9g-7wQSCk4Q&s" 
+        src="{{ photoCover }} " 
         alt="" 
         height="200px"
         
         srcset="">
     </div>
     <div class="big-card__title">
-        <h1><a href="#">Conteúdo para todos os tipos de Devs!</a></h1>
+        <h1><a href="#">{{ cardTitle }}</a></h1>
 
     </div>
     <div class="big-card__description">
-        <p>Apreendendo HTML! </p>
-
-    </div>
-       
+        <p>
+            <a href="">
+            {{ cardDescription }}
+            </a>
+        </p>
+    </div>     
 </div>
